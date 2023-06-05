@@ -2,9 +2,15 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    fontFamily: {
+      'rubik-mono-one': 'RubikMonoOne Regular',
+      montserrat: 'Montserrat Regular'
+    },
     colors: {
       error: '#e11d48',
-      white: '#fff'
+      white: '#fff',
+      black: '#000',
+      gray: '#595959'
     },
     extend: {
       maxWidth: {
