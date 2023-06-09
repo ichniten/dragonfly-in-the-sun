@@ -3,8 +3,8 @@
 </script>
 
 <div class="w-screen h-full bg-main-pattern relative">
-  <div class="max-w-app-container w-full mx-auto mt-[161px]">
-    <div class="flex mb-[132px] justify-between w-full">
+  <div class="max-w-app-container w-full mx-auto zero:mt-[46px] md:mt-[161px]">
+    <div class="mb-[132px] justify-between w-full zero:hidden md:flex">
       <div class="ml-[100px] mt-[68px]">
         <h1 class="uppercase font-rubik-mono-one text-3xl text-black overflow-hidden">
           dragonfly<br /> in the<br /> sun
@@ -21,7 +21,29 @@
         <img width="456" src="/favicon.svg" alt="" class="" />
       </div>
     </div>
-    <div class="bg-white w-full px-[162px] pt-[137px] pb-[387px] relative z-30">
+    <div class="flex mb-[67px] flex-col px-12 w-full zero:flex md:hidden">
+      <h1
+        class="uppercase font-rubik-mono-one zero:hidden xs:block text-3xl text-black overflow-hidden"
+      >
+        dragonfly in the sun
+      </h1>
+      <h1
+        class="uppercase font-rubik-mono-one text-xl zero:block xs:hidden text-black overflow-hidden"
+      >
+        dragonfly<br /> in the<br /> sun
+      </h1>
+      <img width="456" src="/favicon.svg" alt="" class="mt-5" />
+      <div class="font-montserrat zero:text-lg xs:text-xl gap-6 mt-14 flex flex-col">
+        <p class="">Boutique software and nodes for web3 and p2p technology</p>
+        <p class="">
+          Specialist development and application of open source software to hard problems of
+          transparency and trust in the digital space.
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white w-full zero:px-12 sm:px-20 zero:pt-32 md:px-[162px] md:pt-[137px] pb-[387px] relative z-30"
+    >
       <Title variant="h1" text="Semi Fungible Tokens (SFT) & IPFS hosting" />
       <Title
         variant="h2"
@@ -138,4 +160,13 @@
     class="absolute bottom-0 z-10 -right-2"
   />
 </div>
-<img src="/layer-4-stream.svg" alt="" class="-mt-[277px] relative z-40 w-screen" />
+<img
+  src="/layer-4-stream.svg"
+  alt=""
+  class="-mt-[277px] relative z-40 w-screen zero:hidden sm:block"
+/>
+<img
+  src="/layer-4-mobile.svg"
+  alt=""
+  class="-mt-[277px] relative z-40 w-screen zero:block sm:hidden"
+/>

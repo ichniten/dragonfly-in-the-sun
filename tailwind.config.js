@@ -2,6 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    screens: {
+      zero: '0px',
+      xs: '541px',
+      sm: '640px',
+      md: '912px'
+    },
     fontFamily: {
       'rubik-mono-one': 'RubikMonoOne Regular',
       montserrat: 'Montserrat Regular'
