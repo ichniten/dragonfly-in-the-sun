@@ -7,12 +7,16 @@
   onMount(() => {
     setTimeout(() => {
       showPage = true
-    }, 2300)
+    }, 2000)
   })
 </script>
 
 {#if showPage}
-  <div class="w-screen h-full bg-main-pattern relative">
+  <div
+    class="w-screen h-full bg-main-pattern relative"
+    class:hidden={!showPage}
+    class:block={showPage}
+  >
     <div class="max-w-app-container w-full mx-auto zero:mt-[46px] md:mt-[161px]">
       <div class="mb-[132px] justify-between w-full zero:hidden md:flex">
         <div class="ml-[100px] mt-[68px]">
@@ -171,11 +175,15 @@
     />
   </div>
   <img
+    class:hidden={!showPage}
+    class:block={showPage}
     src="/layer-4-stream.svg"
     alt=""
     class="-mt-[277px] relative z-40 w-screen zero:hidden sm:block"
   />
   <img
+    class:hidden={!showPage}
+    class:block={showPage}
     src="/layer-4-mobile.svg"
     alt=""
     class="-mt-[277px] relative z-40 w-screen zero:block sm:hidden"
