@@ -7,7 +7,7 @@
   onMount(() => {
     setTimeout(() => {
       showPage = true
-    }, 3000)
+    }, 2000)
   })
 </script>
 
