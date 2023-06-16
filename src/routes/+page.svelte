@@ -171,7 +171,7 @@
     />
   </div>
   <img
-    src="/layer-4-stream.svg"
+    src="/layer-4-foreground-stream.svg"
     alt=""
     class={showPage ? 'block -mt-[277px] relative z-40 w-screen zero:hidden sm:block' : 'hidden'}
   />
