@@ -14,7 +14,7 @@
 {#if showPage}
   <div class={showPage ? 'block w-screen h-full bg-main-pattern relative' : 'hidden'}>
     <div class="max-w-app-container w-full mx-auto zero:mt-[46px] md:mt-[161px]">
-      <div class="mb-[132px] justify-between w-full zero:hidden md:flex">
+      <div class="mb-[70px] justify-between w-full zero:hidden md:flex">
         <div class="ml-[100px] mt-[68px]">
           <h1 class="uppercase font-rubik-mono-one text-3xl text-black overflow-hidden">
             dragonfly<br /> in the<br /> sun
@@ -176,7 +176,7 @@
     class={showPage ? 'block -mt-[277px] relative z-40 w-screen zero:hidden sm:block' : 'hidden'}
   />
   <img
-    src="/layer-4-mobile.svg"
+    src="/dragonfly-mobile.svg"
     alt=""
     class={showPage ? 'block -mt-[277px] relative z-40 w-screen zero:block sm:hidden' : 'hidden'}
   />
